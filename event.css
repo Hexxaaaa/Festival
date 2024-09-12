@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .hero {
+    height: 100vh;
+    background: url('event.jpg') no-repeat center center/cover;
+    position: relative;
+  }
+
+  .hero:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .hero .container {
+    z-index: 1;
+    position: relative;
+  }
+
+  .btn-gradient {
+    background: linear-gradient(45deg, #ff6f61, #de1f1f);
+    border: none;
+    color: white;
+  }
+
+  .btn-gradient:hover {
+    background: linear-gradient(45deg, #de1f1f, #ff6f61);
+    color: white;
+  }
+  .text-gradient {
+    background: linear-gradient(45deg, #ff6f61, #de1f1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .card {
+    border-radius: 15px;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  footer {
+    background-color: #222;
+  }
+  
